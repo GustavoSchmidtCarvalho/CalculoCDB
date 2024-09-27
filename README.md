@@ -34,9 +34,9 @@ Navegue até a pasta CalculoCDBApi.Tests e execute o comando  <br />
 
 ## Executando a aplicação ClientApp
 
-Navegue até ClientApp e execute os comandos: <br /> 
+Navegue até app/ClientApp e execute os comandos: <br /> 
 
-<b> npm install </b>  <br /> ## Para instalar os recursos do node
+<b> npm install </b>  <br /> ## Para instalar os recursos do Angular
 
 <b> ng serve </b>  <br /> ## Para executar a aplicação
 
@@ -44,5 +44,5 @@ A aplicação ira executar em http://localhost:4200/ <br />
 
 ## Executando os Testes unitários no Angular
 
-Navegue até ClientApp e execute  <br /> 
+Navegue até app/ClientApp e execute  <br /> 
 <b> ng test </b>  <br />
