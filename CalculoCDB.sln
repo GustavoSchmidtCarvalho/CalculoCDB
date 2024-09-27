@@ -11,6 +11,42 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculoCDBApi", "CalculoCDB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculoCDBApi.Tests", "CalculoCDBApi.Tests\CalculoCDBApi.Tests.csproj", "{623F4B57-133A-4DDF-9B37-205FF9AE4AE4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{1B68B932-895B-4FFD-9DB7-0A7098888E5A}"
+	ProjectSection(SolutionItems) = preProject
+		app\ClientApp\src\index.html = app\ClientApp\src\index.html
+		app\ClientApp\src\main.ts = app\ClientApp\src\main.ts
+		app\ClientApp\src\styles.css = app\ClientApp\src\styles.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{5165B4DF-D5CE-46A8-B73D-59E8519B457D}"
+	ProjectSection(SolutionItems) = preProject
+		app\ClientApp\src\app\app.component.css = app\ClientApp\src\app\app.component.css
+		app\ClientApp\src\app\app.component.html = app\ClientApp\src\app\app.component.html
+		app\ClientApp\src\app\app.component.spec.ts = app\ClientApp\src\app\app.component.spec.ts
+		app\ClientApp\src\app\app.component.ts = app\ClientApp\src\app\app.component.ts
+		app\ClientApp\src\app\app.config.ts = app\ClientApp\src\app\app.config.ts
+		app\ClientApp\src\app\app.routes.ts = app\ClientApp\src\app\app.routes.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{1ACC14A0-96CA-43F1-9306-8F6673DF062F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "calculator", "calculator", "{740EE3FA-82CB-49E6-B2EE-A78B46D933E4}"
+	ProjectSection(SolutionItems) = preProject
+		app\ClientApp\src\app\components\calculator\calculator.component.css = app\ClientApp\src\app\components\calculator\calculator.component.css
+		app\ClientApp\src\app\components\calculator\calculator.component.html = app\ClientApp\src\app\components\calculator\calculator.component.html
+		app\ClientApp\src\app\components\calculator\calculator.component.spec.ts = app\ClientApp\src\app\components\calculator\calculator.component.spec.ts
+		app\ClientApp\src\app\components\calculator\calculator.component.ts = app\ClientApp\src\app\components\calculator\calculator.component.ts
+		app\ClientApp\src\app\components\calculator\environment.ts = app\ClientApp\src\app\components\calculator\environment.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "header", "header", "{D6CDB24E-3ECE-4EDC-923B-211883DF2175}"
+	ProjectSection(SolutionItems) = preProject
+		app\ClientApp\src\app\components\header\header.component.css = app\ClientApp\src\app\components\header\header.component.css
+		app\ClientApp\src\app\components\header\header.component.html = app\ClientApp\src\app\components\header\header.component.html
+		app\ClientApp\src\app\components\header\header.component.spec.ts = app\ClientApp\src\app\components\header\header.component.spec.ts
+		app\ClientApp\src\app\components\header\header.component.ts = app\ClientApp\src\app\components\header\header.component.ts
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +68,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4980BF2A-1E55-40DE-9F87-2F73D6398D50} = {07C78AF2-EE80-4406-A0F6-610EB2869968}
 		{623F4B57-133A-4DDF-9B37-205FF9AE4AE4} = {44559FC3-8B5C-4373-BEE6-4DCEB29334F3}
+		{5165B4DF-D5CE-46A8-B73D-59E8519B457D} = {1B68B932-895B-4FFD-9DB7-0A7098888E5A}
+		{1ACC14A0-96CA-43F1-9306-8F6673DF062F} = {5165B4DF-D5CE-46A8-B73D-59E8519B457D}
+		{740EE3FA-82CB-49E6-B2EE-A78B46D933E4} = {1ACC14A0-96CA-43F1-9306-8F6673DF062F}
+		{D6CDB24E-3ECE-4EDC-923B-211883DF2175} = {1ACC14A0-96CA-43F1-9306-8F6673DF062F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB27D2EF-D7CA-4644-9FED-E9C850E27644}

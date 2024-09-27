@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P8xCbYKhnxdn2vxjq4D9MWNhRMYP70KjZDPovo3aiJ3Jzoq+khpR4KpNFSRm7QSRUa6VpqbzKJAyV2cE6dLDYw==",
+  "dgSpecHash": "prB/ScVQoI1MRAcDwjxZmDpdqVRIni28cyTtPuJS588f9tULrJxlgIvalvjjTq7nKIoL9h0ehKxrW+P3DFE8ZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gusta\\source\\repos\\CalculoCDB\\CalculoCDB\\CalculoCDBApi.Tests\\CalculoCDBApi.Tests.csproj",
+  "projectFilePath": "C:\\Users\\gusta\\Git\\CalculoCDB\\CalculoCDBApi.Tests\\CalculoCDBApi.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gusta\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\gusta\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",

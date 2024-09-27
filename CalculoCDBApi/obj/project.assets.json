@@ -638,11 +638,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gusta\\source\\repos\\CalculoCDB\\CalculoCDB\\CalculoCDBApi\\CalculoCDBApi.csproj",
+      "projectUniqueName": "C:\\Users\\gusta\\Git\\CalculoCDB\\CalculoCDBApi\\CalculoCDBApi.csproj",
       "projectName": "CalculoCDBApi",
-      "projectPath": "C:\\Users\\gusta\\source\\repos\\CalculoCDB\\CalculoCDB\\CalculoCDBApi\\CalculoCDBApi.csproj",
+      "projectPath": "C:\\Users\\gusta\\Git\\CalculoCDB\\CalculoCDBApi\\CalculoCDBApi.csproj",
       "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gusta\\source\\repos\\CalculoCDB\\CalculoCDB\\CalculoCDBApi\\obj\\",
+      "outputPath": "C:\\Users\\gusta\\Git\\CalculoCDB\\CalculoCDBApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
