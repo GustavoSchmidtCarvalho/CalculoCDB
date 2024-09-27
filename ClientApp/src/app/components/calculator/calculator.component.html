@@ -1,0 +1,18 @@
+<p>Insira um valor inicial de investimento e a quantidade de meses maior que 1.</p>
+<div class="form-group mb-4">
+    <label for="valorInicial">Valor Inicial: </label>
+    <input type="number" [(ngModel)]="valorInicial" class="form-control" id="valorInicial" placeholder="Insira um valor..." min="0" required>
+    <div *ngIf="valorInicial == undefined || valorInicial == null || valorInicial == 0" style="color: red;">
+        Insira um valor monetário positivo.
+    </div>
+</div>
+<div class="form-group mb-4">
+    <label for="qtdeMeses">Quantidade de meses: </label>
+    <input type="number" [(ngModel)]="qtdMeses" class="form-control" id="qtdeMeses" placeholder="Insira um prazo em meses..." min="2">
+    <div *ngIf="qtdMeses == undefined || qtdMeses == null || qtdMeses <= 1" style="color: red;">
+        Insira um prazo em meses maior que 1.
+    </div>
+</div>
+<button class="btn btn-primary" (click)="enviarDados()" [disabled]="validarCampos()">Calcular</button>
+<p id="LabelResultadoBruto" class="mt-4" aria-live="polite">Resultado Cálculo CDB Bruto: <strong>{{ valorBruto | currency : 'BRL'}}</strong></p>
+<p id="LabelResultadoliquido" class="mt-4" aria-live="polite">Resultado Cálculo CDB Líquido: <strong>{{ valorLiquido | currency : 'BRL'}}</strong></p>
