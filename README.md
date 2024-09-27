@@ -33,9 +33,9 @@ Execute o comando <br />
 1. Navegue até o diretório CalculoCDBApi e execute o comando <br />  
 <b> dotnet run </b>  <br />
 
-A aplicação ira executar em [CalculoCDBApi] (http://localhost:5153) <br />
+A aplicação ira executar em http://localhost:5153 <br />
 
-Link [Swagger] (http://localhost:5153/swagger/index.html) <br />
+Link Swagger http://localhost:5153/swagger/index.html <br />
 
 ## Executando testes unitários em CalculoCDBApi.Tests. 
 
@@ -50,7 +50,7 @@ Navegue até app/ClientApp e execute os comandos: <br />
 
 <b> ng serve </b>  <br /> ## Para executar a aplicação
 
-A aplicação ira executar em [app] (http://localhost:4200/) <br />
+A aplicação ira executar em http://localhost:4200/ <br />
 
 ## Executando os Testes unitários no Angular
 
